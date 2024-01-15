@@ -1,0 +1,27 @@
+.pokemon-card {
+    width: 150px;
+    height: 390px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokemon-card h2,
+.pokemon-card p {
+    color: black;
+}
+
+.pokemon-card ul {
+    list-style: none;
+    padding-inline-start: 0;
+    text-align: center;
+}
+
+.pokemon-card li {
+    background-color: beige;
+}

@@ -1,1 +1,25 @@
-/*Schrijf hier jouw eigen CSS!*/
+.inner-container {
+    width: 100vw;
+    background-color: #ffbd33;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inner-container h1 {
+    font-size: 80px;
+    color: black;
+}
+
+.list-pokemons {
+    flex-basis: 100%;
+    max-width: 80%;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
